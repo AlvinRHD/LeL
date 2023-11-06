@@ -25,7 +25,7 @@ setTimeout(function () {
     typeEffect(p, speed);
     setTimeout(function () {
         window.location.href = "home.html";
-    }, 18000);
+    }, 2000);
 }, delay);
 
 
