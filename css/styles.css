@@ -1,0 +1,60 @@
+/* body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: url('https://farm9.staticflickr.com/8760/17195790401_ceeeafcddb_o.jpg');
+    background-size: cover;
+    font-family: 'Cabin Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    font-weight: bold;
+    max-width: 600px;
+    height: auto;
+} */
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    font-family: 'Oxygen Mono', monospace;
+    color: #FAFAFA;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 30pt;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: left;
+    margin: 0;
+    text-transform: lowercase;
+    font-size: 10pt;
+    font-weight: 900;
+    width: 50%;
+    display: none;
+}
+
+#table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+}
+
+#center {
+    display: table-cell;
+    vertical-align: middle;
+}
