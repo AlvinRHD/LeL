@@ -27,3 +27,5 @@ setTimeout(function () {
         window.location.href = "home.html";
     }, 18000);
 }, delay);
+
+
