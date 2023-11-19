@@ -44,7 +44,6 @@ img{
     overflow: hidden;
     position: relative;
     border-radius: 30px;
-    border: 5px solid black;
 }
 
 .ui-card img{
