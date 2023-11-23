@@ -22,7 +22,7 @@ img{
     display: grid; 
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: 1fr;
-    gap: 20px;    
+    gap: 15px;    
 }
 
 .ui-card{
@@ -35,6 +35,8 @@ img{
     background-size: cover;
     transition: transform 0.5s;
     border: 3px solid black;
+    margin-bottom: 15px;
+    animation: floatAnimation 4s ease-in-out infinite;
 }
 
 .ui-card-logo{
@@ -106,3 +108,38 @@ img{
     transform: translateY(-15px);
     opacity: 1;
 }
+
+@keyframes floatAnimation {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+}
+
+/* @keyframes floatAnimationUp {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+} */
+
+/* @keyframes flotatAnimationDown {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+} */
+
+/* .ui-card:nth-child(odd){
+    animation: floatAnimationUp 4s ease-in-out infinite;
+} */
+
+/* .ui-card:nth-child(even){
+    animation: floatAnimationDown 4s ease-in-out infinite;
+} */
