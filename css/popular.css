@@ -12,6 +12,10 @@ body{
     background-color: #000000;
 }
 
+li{
+    list-style: none;
+}
+
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -23,10 +27,37 @@ a:hover {
     color: #e65c00;
 }
 
+header{
+    position: relative;
+    padding: 1rem;
+}
 
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
 
+.navbar .toggle_btn{
+    color: #000000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
 
 .header1{
     position: relative;
@@ -239,13 +270,173 @@ footer{
     margin: 0px 5px;
 }
 
-@media (max-width: 700px){
+@media (min-width: 1024px){
+    .navbar .logo a{
+        font-size: 1.6rem;
+    }
+
+    .navbar .links a{
+        font-size: 1.4rem;
+    }
+
+    h1{
+        font-size: 2.7rem;
+    }
+
+    .tit2{
+        font-size: 2.7rem;
+    }
+
+    .tit3{
+        font-size: 2.7rem;
+    }
+
+    h3{
+        font-size: 1.6rem;
+    }
+
+    .header1 .contenedor-textos .botonMas {
+        font-size: 1.6rem;
+    }
+
+    .header2 .contenedor-textos2 .botonDos {
+        font-size: 1.6rem;
+    }
+
+    .header3 .contenedor-textos3 .botonMas {
+        font-size: 1.6rem;
+    }
+
+    .footerNav ul li a{
+        font-size: 1.8rem;
+    }
+
+    .footerbottom p{
+        font-size: 1.2rem;
+    }
+
+    .footerbottom p span{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px){
+    .navbar .logo a{
+        font-size: 1.0rem;
+    }
+
+    .navbar .links a{
+        font-size: 0.8rem;
+    }
+
+    h1{
+        font-size: 2.0rem;
+    }
+
+    .tit2{
+        font-size: 2.0rem;
+    }
+
+    .tit3{
+        font-size: 2.0rem;
+    }
+
+    h3{
+        font-size: 1.0rem;
+    }
+
+    .header1 .contenedor-textos .botonMas {
+        font-size: 1.0rem;
+    }
+
+    .header2 .contenedor-textos2 .botonDos {
+        font-size: 1.0rem;
+    }
+
+    .header3 .contenedor-textos3 .botonMas {
+        font-size: 1.0rem;
+    }
+
     .footerNav ul{
         flex-direction: column;
     }
+
     .footerNav ul li{
         width: 100%;
         text-align: center;
         margin: 10px;
+    }
+
+    .footerNav ul li a{
+        font-size: 1.1rem;
+    }
+
+    .footerbottom p{
+        font-size: 0.6rem;
+    }
+
+    .footerbottom p span{
+        font-size: 0.6rem;
+    }
+}
+
+
+@media (max-width: 500px){
+    .navbar .logo a{
+        font-size: 0.8rem;
+    }
+
+    .navbar .links a{
+        font-size: 0.6rem;
+    }
+
+    h1{
+        font-size: 1.7rem;
+    }
+
+    .tit2{
+        font-size: 1.7rem;
+    }
+
+    .tit3{
+        font-size: 1.7rem;
+    }
+
+    h3{
+        font-size: 0.9rem;
+    }
+
+    .header1 .contenedor-textos .botonMas {
+        font-size: 0.9rem;
+    }
+
+    .header2 .contenedor-textos2 .botonDos {
+        font-size: 0.9rem;
+    }
+
+    .header3 .contenedor-textos3 .botonMas {
+        font-size: 0.9rem;
+    }
+
+    .footerNav ul{
+        flex-direction: column;
+    }
+
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .footerNav ul li a{
+        font-size: 1.0rem;
+    }
+
+    .footerbottom p{
+        font-size: 0.6rem;
+    }
+
+    .footerbottom p span{
+        font-size: 0.6rem;
     }
 }

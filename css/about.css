@@ -149,10 +149,11 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
         font-size: 16px;
     }
 
-    .footerNav ul{
+    .footerNav ul {
         flex-direction: column;
     }
-    .footerNav ul li{
+    
+    .footerNav ul li {
         width: 100%;
         text-align: center;
         margin: 10px;
